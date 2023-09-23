@@ -16,7 +16,7 @@ function Calender() {
     console.log(date);
   }
   return (
-    <div className='Container h-[800px]'>
+    <div className='Container'>
         <FullCalendar
         plugins={[dayGridPlugin,timeGridPlugin,interactionPlugin]}
         initialView='dayGridMonth'
