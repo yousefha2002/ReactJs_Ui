@@ -11,6 +11,7 @@ import Modal from "./pages/Modal";
 import Sidebar from "./pages/Sidebar";
 import ProgressBar from "./pages/ProgressBar";
 import Spinner from "./pages/Spinner";
+import Calender from "./pages/Calender";
 function App() {
   return (
     <Routes>
@@ -25,6 +26,7 @@ function App() {
       <Route path="sidebar" element={<Sidebar/>}/>
       <Route path="progress-bar" element={<ProgressBar/>}/>
       <Route path="spinner" element={<Spinner/>}/>
+      <Route path="calender" element={<Calender/>}/>
     </Routes>
   );
 }
