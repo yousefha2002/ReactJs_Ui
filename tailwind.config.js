@@ -10,8 +10,8 @@ module.exports = {
         center:true
       },
       colors:{
-        bgMain:"#066ac91a",
-        main:"#066ac9"
+        bgMain:"#f871711a",
+        main:"#f87171"
       }
     },
   },
