@@ -1,11 +1,8 @@
-import React from 'react'
 import 'react-calendar/dist/Calendar.css';
 import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-
-
 
 const events = [
     { title: 'Meeting', start: new Date() }
