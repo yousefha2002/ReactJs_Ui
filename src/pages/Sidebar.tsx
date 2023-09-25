@@ -2,7 +2,7 @@ import {useState, useEffect } from "react";
 import SidebarBox from "../components/sidebar/SidebarBox";
 import Navbar from "../components/sidebar/Navbar";
 
-const App = () => {
+const Sidebar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     // Use useEffect to set the initial state based on screen size
@@ -46,4 +46,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Sidebar;
